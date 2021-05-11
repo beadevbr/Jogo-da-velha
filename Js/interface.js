@@ -61,9 +61,9 @@ function restart() {
     });
 }
 function updateScore() {
-    player1.innerHTML = `<span class="icon1">&#x1F47D</span>
+    player1.innerHTML = `<span class="icon1">&#x1F47E</span>
     <span id="scoreP1">${scores[0].toString()}</span>`;
-    player2.innerHTML = `<span class="icon2">&#x1F47E</span>
+    player2.innerHTML = `<span class="icon2">&#x1F47D</span>
     <span id="scoreP2">${scores[1].toString()}</span>`;
 
 }
