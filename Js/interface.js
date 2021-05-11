@@ -24,10 +24,10 @@ function handleClick(event) {
         updateScore()
         setTimeout(() => {
             if (playerTime == 0) {
-                simboloMensagem = '👽';
+                simboloMensagem = '👾';
                 alert("O jogo acabou! O vencedor foi " + simboloMensagem);
             } else {
-                simboloMensagem = '👾';
+                simboloMensagem = '👽';
                 alert("O jogo acabou! O vencedor foi " + simboloMensagem);
 
             }
