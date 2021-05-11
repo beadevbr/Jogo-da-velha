@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Jogo da Velha</title>
+</head>
+
+<body>
+
+    <div class="score">
+        <div id="player1" class="player">
+            <span class="icon1">&#x1F47D</span>
+            <span id="scoreP1">0</span>
+        </div>
+        <div id="player2" class="player">
+            <span class="icon2">&#x1F47E</span>
+            <span id="scoreP2">0</span>
+        </div>
+    </div>
+
+    <div class="stage">
+
+        <div class="tab">
+            <div id="0" class="square no-border-top no-border-left"></div>
+            <div id="1" class="square no-border-top"></div>
+            <div id="2" class="square no-border-top no-border-rigth"></div>
+
+        </div>
+        <div class="tab">
+            <div id="3" class="square no-border-left"></div>
+            <div id="4" class="square"></div>
+            <div id="5" class="square no-border-rigth"></div>
+        </div>
+        <div class="tab">
+            <div id="6" class="square no-border-botton no-border-left"></div>
+            <div id="7" class="square no-border-botton"></div>
+            <div id="8" class="square no-border-botton no-border-rigth"></div>
+        </div>
+
+        <div class="reiniciar"> <button id="resetg" type="reset">Restart </button> </div>
+
+    </div>
+    <footer>
+        <p>
+            <a href="https://github.com/Juanfernandess" target="_blank"><img src="/image/github.png" alt="GitHub"
+                    id="github" /></a>
+            <a class="linke" href="https://www.linkedin.com/in/juan-fernandes-7985a6202/" target="_blank"> <img
+                    src="/image/linkedin.png" alt="Linkedin"></a>
+            Developer of the page Juan Fernandes
+        </p>
+    </footer>
+    <script src="./Js/game.js"></script>
+    <script src="./Js/interface.js"></script>
+
+
+</body>
+
+</html>

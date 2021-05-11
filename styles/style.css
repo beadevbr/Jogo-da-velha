@@ -1,0 +1,142 @@
+* {
+  font-size: 45px;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(/image/games.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: -40px;
+  width: 400px;
+}
+
+.player {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  width: 150px;
+  height: 70px;
+  background-color: #ee7cf17c;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  border-radius: 35px;
+  box-shadow: 5px 5px 5px #ac09a3bd;
+}
+
+#scoreP1,
+#scoreP2 {
+  color: #00eeff;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  border: 4px solid #e860f5;
+}
+
+.o {
+  position: relative;
+}
+
+.o::after {
+  content: "\1F47E";
+  font-size: 50px;
+}
+
+.x {
+  position: relative;
+}
+
+.x::after {
+  content: "\1F47D";
+  font-size: 50px;
+}
+
+.reiniciar {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button#resetg {
+  width: 400px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  height: 50px;
+  margin-top: 2px;
+  margin-left: 5px;
+  background-color: #a41fc5;
+  font-size: 38px;
+  color: #00c3ff;
+  text-shadow: 3px 3px 3px #856f58a9;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #da00f771;
+  border: none;
+  cursor: pointer;
+}
+
+button#resetg:hover {
+  background-color: rgba(255, 0, 255, 0.63);
+}
+
+.no-border-top {
+  border-top: none;
+  color: palegreen;
+}
+
+.no-border-left {
+  border-left: none;
+}
+
+.no-border-rigth {
+  border-right: none;
+}
+
+.no-border-botton {
+  border-bottom: none;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.616);
+}
+
+footer p {
+  font-size: 25px;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  #player1 {
+    margin-left: 15px;
+  }
+
+  #player2 {
+    margin-right: 20px;
+  }
+
+  .square {
+    width: 100px;
+    height: 100px;
+  }
+}
