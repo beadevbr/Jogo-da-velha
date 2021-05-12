@@ -11,6 +11,18 @@ body {
   margin-top: 50px;
 }
 
+header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: -4%;
+  position: relative;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.548);
+}
+
+header h1 {
+  color: rgb(230, 20, 230);
+}
+
 .score {
   display: flex;
   justify-content: space-between;
