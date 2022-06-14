@@ -3,11 +3,11 @@
 ![ezgif com-gif-maker](https://user-images.githubusercontent.com/80279567/173661618-6f0b8ac9-dead-4404-8068-40ab664cc5a8.gif)
 
 ## 📋 Sobre o Projeto
-O desáfio foi criar um tribute page sobre uma pessoa famosa,<br/>
-com base nas informações seguintes:<br/>
 <li>✔️ Responsivo
 <li>✔️ Mini game simples
 <li>✔️ Design interativo
+<li>✔️ Botão restart
+<li>✔️ Até duas pessoas
 
 # 💻 Tecnologias utilizadas
 O projeto foi desenvolvido seguindo as seguintes tecnologias:
