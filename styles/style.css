@@ -137,6 +137,10 @@ footer p {
   text-align: center;
 }
 
+footer img {
+  width: 20px;
+}
+
 @media screen and (max-width: 450px) {
   #player1 {
     margin-left: 15px;
